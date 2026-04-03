@@ -1,0 +1,116 @@
+/* Configuração Básica */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8ddcb; /* Cor de pergaminho velho */
+    color: #3e322b; /* Marrom bem escuro (texto principal) */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1614; /* Preto/Cinza bem escuro */
+    color: #d8c3a5; /* Bege clarinho */
+    text-align: center;
+    padding: 1px 0;
+    border-bottom: 4px solid #8e2111; /* Vermelho escuro lembrando o dragão */
+}
+
+header h1 {
+    margin: 20px 0;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #d8c3a5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    color: #e98074; /* Vermelho mais claro no hover */
+    border-bottom: 2px solid #e98074;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* Estilo das Seções */
+section {
+    background-color: #f7f3eb; /* Fundo mais claro que o body */
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #c8bca7;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.4s, color 0.4s; /* Suaviza a transição da Atividade 3 */
+}
+
+section header h2 {
+    border-bottom: 2px solid #8e2111;
+    padding-bottom: 5px;
+    margin-top: 0;
+    color: #8e2111;
+}
+
+/* Botões Estilo RPG */
+button {
+    background-color: #8e2111;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #5c140a;
+}
+
+/* Imagens */
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: 2px solid #3e322b;
+    transition: 0.3s; /* Transição suave na Atividade 6 */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1614;
+    color: #888;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
